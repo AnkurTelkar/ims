@@ -1,0 +1,24 @@
+.custom-label {
+	/* display:block;
+    width:30px;
+    word-wrap:break-word;
+    width: 50%;*/
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.rcorners1 {
+	border-radius: 1.5%;
+}
+.padding-0 {
+	padding: 0px;
+}
+
+.item-row-selected {
+	background: #D9EDF7;
+}
+
+.table tbody > tr > td{
+    vertical-align: middle;
+}

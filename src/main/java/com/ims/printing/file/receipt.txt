@@ -1,0 +1,20 @@
+K.N Sales                               |Bill No:
+17/2/3, Block-B, 1st Floor, National    |{{billNo}}
+Market, Jawar Marg, Siyaganj, Indore    |
+Contact: 8889998286                     |Date:
+GSTIN: 23DVJUPK6855F1ZE                 |{{dateTime}}
+-----------------------------------------------------------------
+Customer: 
+{{customerInfo}}
+-----------------------------------------------------------------
+No.|Description             |HSN     |GST% |Qty |Rate   |Amount  
+-----------------------------------------------------------------
+{{items}}
+-----------------------------------------------------------------
+Total:{{subTotal}}
+Discount {{discountP}}{{discount}}
+CGST:{{cgst}}
+SGST:{{sgst}}
+-----------------------------------------------------------------
+Grand Total:{{grandTotal}}
+-----------------------------------------------------------------
